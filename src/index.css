@@ -68,3 +68,23 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+
+h2 {
+  @apply text-center text-xl;
+}
+
+h3 {
+  @apply text-left text-lg my-6;
+}
+
+.note {
+  @apply text-[#BE8B00] font-semibold;
+}
+
+.context {
+  @apply my-4 dark:text-gray-400;
+}
+
+.highlight {
+  @apply my-2 text-blue-500;
+}
